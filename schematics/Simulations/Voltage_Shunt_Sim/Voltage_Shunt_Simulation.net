@@ -1,0 +1,14 @@
+* Z:\Users\kendrickwiersma\Dropbox\Sr. Design Project\E-Meter\Simulations\Voltage_Shunt_Sim\Voltage_Shunt_Simulation.asc
+R1 N002 N001 330k
+R2 N003 N002 330k
+R3 N004 N003 330k
+R4 0 N004 1.5k
+R5 N004 N005 100
+R6 N006 0 1k
+C1 N005 0 47p
+C2 0 N006 47p
+C3 N005 N006 15n
+V1 N001 0 SINE(0 120 60 0 0 0)
+.tran 0.2
+.backanno
+.end
